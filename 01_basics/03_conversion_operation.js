@@ -29,13 +29,11 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 // console.log(str3)
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log(1 + 2 + "2");
-console.log(1 + 2 + "2" + 1 + 1 + "1" + 1 + "1");
-
-
-
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "2");
+// console.log(1 + 2 + "2" + 1 + 1 + "1" + 1 + "1");
+// console.log(+"");
 
 
 // console.log(true);
@@ -43,6 +41,11 @@ console.log(1 + 2 + "2" + 1 + 1 + "1" + 1 + "1");
 // console.log(-true);
 // console.log(+false);
 // console.log(-false);
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter);
+
 
 
 
